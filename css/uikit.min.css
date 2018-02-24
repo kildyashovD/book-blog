@@ -30,12 +30,6 @@ a {
 	cursor: pointer
 }
 
-.uk-link:hover,
-a:hover {
-	color: #0f6ecd;
-	text-decoration: underline
-}
-
 abbr[title] {
 	border-bottom: none;
 	text-decoration: underline;
@@ -126,17 +120,6 @@ img {
 
 svg:not(:root) {
 	overflow: hidden
-}
-
-address,
-dl,
-fieldset,
-figure,
-ol,
-p,
-pre,
-ul {
-	margin: 0 0 20px 0
 }
 
 * + address,

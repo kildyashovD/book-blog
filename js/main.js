@@ -8,21 +8,6 @@
     });
 })(jQuery);
 
-// Scroll to Top button
-
-window.onscroll = function () {scrollToTopFunction()};
-
-var toTop = document.getElementById('toTopButton');
-
-function scrollToTopFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        toTop.style.display = "block";
-    } else {
-        toTop.style.display = "none";
-    }
-}
-
-
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction () {
     var x = document.getElementById("myTopNav");
@@ -121,10 +106,6 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 	
 	var animate = document.getElementById('animateHeader');
-	
-	if (document.body.scrollTop > 30) {
-		document.getElementById("test").classList.remove("titles_display_none");
-	};
 	
     if (document.body.scrollTop > 3700 || document.documentElement.scrollTop > 3700) {
       animate.classList.add('active-header');
