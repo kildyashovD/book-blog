@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>BOOK BLOG</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/uikit.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+	<!-- Navbar -->
+
+	<nav class="topnav" id="myTopNav">
+		<a href="#" class="navbar-brand">It's all about books</a>
+		<a href="#" class="icon" onclick="myFunction()">&#9776;</a>
+		<ul class="navbar-nav">
+			<li class="nav-item"><a href="#">Main</a></li>
+			<li class="nav-item"><a href="#section2" rel='m_PageScroll2id'>Article</a></li>
+			<li class="nav-item"><a href="#section3" rel='m_PageScroll2id'>Reviews</a></li>
+			<li class="nav-item" style="border-right: none"><a href="#section4" rel='m_PageScroll2id'>Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- scroll to top button -->
+
+
+	<!-- BG PIC HEADER -->
+
+	<div class="bg-header fade-animation">
+		<div class="bg-header-caption">
+			<span class="blog-header">Book Blog</span>
+		</div>
+	</div>
+
+	<!-- TITLES -->
+
+	<h2 class="titles-header" id="section2">You can read my reviews and learn how to read in English</h2>
+
+	<div class="titles bg-header--fade-animation" uk-scrollspy="target: > article; cls:uk-animation-fade; delay: 500">
+		<article class="style1" onclick="openModal();currentSlide(1)">
+			<span class="image">
+				<img src="image/1484988304573.jpeg" alt="img">
+				</span>
+			<div class="a">
+				<h4>Article</h4>
+				<p class="content">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</article>
+
+		<article class="style2" onclick="openModal();currentSlide(2)">
+			<span class="image">
+				<img src="image/blog1.jpg" alt="img">
+				</span>
+			<div class="a">
+				<h4>Article</h4>
+				<p class="content">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</article>
+
+		<article class="style3" onclick="openModal();currentSlide(3)">
+			<span class="image">
+				<img src="image/DeqTfiaOWZI.jpg"  alt="img">
+				</span>
+			<div class="a">
+				<h4>Article</h4>
+				<p class="content">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</article>
+
+		<article class="style4" onclick="openModal();currentSlide(4)">
+			<span class="image">
+				<img src="image/1484988304573.jpeg" alt="img">
+				</span>
+			<div class="a">
+				<h4>Article</h4>
+				<p class="content">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</article>
+
+		<article class="style5" onclick="openModal();currentSlide(5)">
+			<span class="image">
+				<img src="image/blog1.jpg" alt="img">
+				</span>
+			<div class="a">
+				<h4>Article</h4>
+				<p class="content">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</article>
+
+		<article class="style6" onclick="openModal();currentSlide(6)">
+			<span class="image">
+				<img src="image/DeqTfiaOWZI.jpg" alt="img">
+				</span>
+			<div class="a">
+				<h4>Article</h4>
+				<p class="content">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</article>
+
+	</div>
+
+	<div id="myModal" class="modal fade">
+		<span class="close" onclick="closeModal()">×</span>
+		<div class="modal-content">
+
+			<div class="mySlides">
+				<img src="image/1484988304573.jpeg" class="modal-img">
+				<div class="caption">
+					<h2 class="caption-header">Fight Club</h2>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+			</div>
+
+			<div class="mySlides">
+				<img class="modal-img" src="image/blog1.jpg">
+				<div class="caption">
+					<h2 class="caption-header">Fight Club</h2>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+			</div>
+
+			<div class="mySlides">
+				<img class="modal-img" src="image/DeqTfiaOWZI.jpg">
+				<div class="caption">
+					<h2 class="caption-header">Fight Club</h2>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+			</div>
+
+			<div class="mySlides">
+				<img class="modal-img" src="image/1484988304573.jpeg">
+				<div class="caption">
+					<h2 class="caption-header">Fight Club</h2>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img class="modal-img" src="image/blog1.jpg">
+				<div class="caption">
+					<h2 class="caption-header">Fight Club</h2>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+			</div>
+
+			<div class="mySlides">
+				<img class="modal-img" src="image/DeqTfiaOWZI.jpg">
+				<div class="caption">
+					<h2 class="caption-header">Fight Club</h2>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+					<p class="caption-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="column-main">
+
+				<div class="column">
+					<img class="demo active" src="image/1484988304573.jpeg" onclick="currentSlide(1)" alt="img">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="image/blog1.jpg" onclick="currentSlide(2)" alt="img">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="image/DeqTfiaOWZI.jpg" onclick="currentSlide(3)" alt="img">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="image/1484988304573.jpeg" onclick="currentSlide(4)" alt="img">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="image/blog1.jpg" onclick="currentSlide(5)" alt="img">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="image/DeqTfiaOWZI.jpg" onclick="currentSlide(6)" alt="img">
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- REWIES -->
+
+	<section class="rewies">
+		<h2 class="header-rewies" id="section3">Rewievs</h2>
+		<div class="rewies-container">
+			<div class="rewies-container-article">
+				<div class="rewies-container-article-text">
+					<h3 class="rewies-container-article-header">
+						FIGHT CLUB
+					</h3>
+					<p class="rewies-container-article-p">
+						«After you’ve been to fight club, watching football on television is watching pornography when you could be having great sex».
+					</p>
+					<p class="rewies-container-article-p">
+						You know, one of my favorite words in English is awesome (thanks to Dean Winchester). And speaking about awesomeness this is how I can describe this book in only one word - awesome. Isn’t it enough for a review? Nope? Okaaay.
+					</p>
+					<p class="rewies-container-article-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+				<div class="rewies-container-article-img">
+					<img id="myImg" class="img-fluid" alt="500x500" src="image/2PnJ7wrATaOJZtBeI4QwwA_thumb_a39.jpg">
+				</div>
+			</div>
+			<hr class="rewies--line-devider">
+			<div class="rewies-container-article article-reverse">
+				<div class="rewies-container-article-img">
+					<img id="myImg" class="img-fluid" alt="500x500" src="image/77AA824C-5429-4E2D-968F-A682C3EFA76A.jpg">
+				</div>
+				<div class="rewies-container-article-text">
+					<h3 class="rewies-container-article-header">
+						NORTHANGER ABBEY
+					</h3>
+					<p class="rewies-container-article-p">
+						I consider a country-dance as an emblem of marriage. Fidelity and complaisance are the principal duties of both; and those men who do not choose to dance or marry themselves, have no business with the partners or wives of their neighbours.
+					</p>
+					<p class="rewies-container-article-p">
+						No man is offended by another man’s admiration of the woman he loves; it is the woman only who can make it a torment.
+					</p>
+					<p class="rewies-container-article-p">
+						The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid. …no one can think more highly of the understanding of women than I do. In my opinion, nature has given them so much that they never find it necessary to use more than half.
+					</p>
+				</div>
+			</div>
+			<hr class="rewies--line-devider">
+			<div class="rewies-container-article">
+				<div class="rewies-container-article-text">
+					<h3 class="rewies-container-article-header">
+						FIGHT CLUB
+					</h3>
+					<p class="rewies-container-article-p">
+						«After you’ve been to fight club, watching football on television is watching pornography when you could be having great sex».
+					</p>
+					<p class="rewies-container-article-p">
+						You know, one of my favorite words in English is awesome (thanks to Dean Winchester). And speaking about awesomeness this is how I can describe this book in only one word - awesome. Isn’t it enough for a review? Nope? Okaaay.
+					</p>
+					<p class="rewies-container-article-p">
+						Long story short, two friends, a girl and a fight club. But I can’t tell you more than this, because… you know, we have rules and one of them is that we don’t talk about fight club. And what do we do with rules? Right, we follow them. So, you have to figure it out yourself without my help.
+					</p>
+				</div>
+				<div class="rewies-container-article-img">
+					<img id="myImg" class="img-fluid" alt="500x500" src="image/2PnJ7wrATaOJZtBeI4QwwA_thumb_a39.jpg">
+				</div>
+			</div>
+		</div>
+		<hr class="rewies--line-devider">
+	</section>
+
+	<!-- CAROUSEL -->
+
+	<section class="slideshow">
+		<h2 class="slideshow-header">Memories</h2>
+		<div class="slideshow-container">
+			<div class="slideshow-container-slides fade-animation">
+				<img class="slideshow-container-slides-img" src="image/IMG_8029.jpg">
+				<div class="slideshow-container-slides-text">Example one</div>
+			</div>
+
+			<div class="slideshow-container-slides fade-animation">
+				<img class="slideshow-container-slides-img" src="image/IMG_0821.jpg">
+				<div class="slideshow-container-slides-text">Example two</div>
+			</div>
+
+			<div class="slideshow-container-slides fade-animation">
+				<img class="slideshow-container-slides-img" src="image/IMG_8650.jpg">
+				<div class="slideshow-container-slides-text">Example three</div>
+			</div>
+
+			<a class="slideshow-prev" onclick="plusSlidesCarousel(-1)">&#10094;</a>
+			<a class="slideshow-next" onclick="plusSlidesCarousel(1)">&#10095;</a>
+		</div>
+	</section>
+
+	<section class="contact-form">
+		<h2 class="header-contact" id="section4">Say Hello!</h2>
+		<div class="box" id="animateHeader">
+			<form class="form">
+				<div class="form-row">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="First name">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="8" placeholder="Message"></textarea>
+				</div>
+				<button id="formSend" type="button" class="btn" role="button" aria-pressed="true">Send message</button>
+			</form>
+		</div>
+
+		<div id="formModal" class="form-modal-send">
+			<div class="form-modal-send--content">
+				<span class="close" onclick="">×</span>
+				<p class="form-modal-send-text">Thanks for your attention!</p>
+			</div>
+		</div>
+
+	</section>
+
+	<footer class="container">
+		<ul class="icon">
+			<li><a href="https://www.facebook.com/tania.efremova.1" class="fa fa-facebook-square fa-3x"></a></li>
+			<li><a href="https://www.instagram.com/ef_tanya/" class="fa fa-instagram fa-3x"></a></li>
+			<li><a href="#" class="fa fa-pinterest-square fa-3x"></a></li>
+			<li><a href="https://vk.com/ef_tanya" class="fa fa-vk fa-3x"></a>
+		</ul>
+	</footer>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/jquery.malihu.PageScroll2id.js"></script>
+	<script src="js/uikit.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
