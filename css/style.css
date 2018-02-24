@@ -618,7 +618,7 @@
 	color: white;
 	font-size: 3rem;
 	text-shadow: 3px 3px 3px #212529;
-	background-image: url(9D074429-8BFC-43E4-977A-8A8B63CA3526%201.44.51.jpg);
+	background-image: url('9D074429-8BFC-43E4-977A-8A8B63CA3526%201.44.51.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1031,5 +1031,9 @@ footer.container {
 	.slideshow-header,
 	.contact-form .header-contact {
 		padding: 40px 0;
+	}
+	
+	.header-rewies {
+		background-attachment: scroll;
 	}
 }
